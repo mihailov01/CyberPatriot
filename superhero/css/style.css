@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+  font-family: "Roboto", "Roboto", sans-serif;
+  text-align: center;
+}
+
+header{
+  background-color: #272727;
+  color: #fff;
+  margin: -8px ;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;   
+  margin-bottom: 10px; 
+  z-index: 2;
+}
+
+.team{
+  height: 500px;
+  background-color: #272727;
+  position: relative;
+
+  margin: 192px -8px 0 -8px;
+}
+
+
+
+
+.form{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+input[type=submit]{
+    background-color:#e8aa4e;
+    color:white;
+    border: 1px solid #e8aa4e;
+    text-align: center;
+    margin-left: 550px;
+    width: 150px;
+    height: 30px;
+   
+}
+input[type=text]{
+  width: 349px;
+  height: 30px;
+  
+}
+
+.container{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right{
+  width: 350px;
+  text-align: left;
+}
+
+#btn{
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+#btn:hover{
+  background-color: wheat;
+}
+
+
+
+/*________DragAndDrop__________*/
+
+#upload-container label {
+	font-weight: bold;
+}
+
+#upload-container img {
+	width: 33%;
+	margin-bottom: 20px;
+	user-select: none;
+}
+
+#upload-container label:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#upload-container div {
+	position: relative;
+	z-index: 10;
+}
+
+#upload-container input[type=file] {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	position: absolute;
+	z-index: -10;
+}
+
+#upload-container label.focus {
+	outline: 1px solid #272727;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+#upload-container.dragover {
+	background-color: #fafafa;
+	outline-offset: -17px;
+}
+
+#upload-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 130px;
+	border:1px solid gray;
+	outline-offset: -12px;
+	font-size: 14px;
+	color: #272727;
+  margin: 10px auto;
+  z-index: 0;
+  position: relative;
+
+}
+
+/*________OrjLine__________*/
+.hr-line {
+  text-align: center;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 4px solid #e8aa4e;
+  width: 100px;
+}
+.hr-line-2 {
+  text-align: center;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 4px solid #e8aa4eb2;
+  width: 70px;
+}
+
+
+
+
+
+ /*  */ /* FOOTER */ /*  */
+footer{
+  background-color: #272727;
+  margin: -8px;
+  height: 4rem;
+  color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-top: 1.5px solid black;
+  z-index: 3;
+}
+
+.footer_social {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-right: 200px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.footer_link{
+  padding: 5px;
+}
+
+.footer_link:hover{
+  background-color: #e8aa4e;
+  border-radius: 1rem;
+  padding: 5px;
+}
+
+.fname{
+  text-align: center;
+  vertical-align:middle;
+  display: flex;
+  margin: 20px;
+  margin-left: 200px;
+  justify-content: space-between;
+  width: 350;
+}
+/*  */ /*  */ /*  */ /*  */
+.my_hero{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color:#fff
+}
+
+.mySlides {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #fff;
+  position: relative;
+  padding-top: 160px;
+}
+
+.block{
+  margin-bottom: 15px;
+}
+
+.hed{
+  font-size:40px;
+}
+.db{
+  font-size:20px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background-color: #272727;
+  margin: 192px -8px 0 -8px;
+  height: 500px;
+}
+/*  */ /*  */ /*  */ /*  */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #e8aa4e;
+}
+/*  */ /*  */ /*  */ /*  */
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  display: flex;
+  justify-content: space-between;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1200px) {
+    .fname{
+        margin-left: 100px;
+    }
+    .footer_social{
+        margin-right: 100px;
+    }
+    .mySlides{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .fname{
+        margin-left: 50px;
+    }
+    .footer_social{
+        margin-right: 50px;
+    }
+    header{
+        height: 149px;
+    }
+    .hed {
+        font-size: 36px;
+        margin-top: 8px;
+    }
+    .hr-line{
+        margin-top: -25px;
+    }
+    .slideshow-container{
+        margin: 141px -8px 0 -8px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hed{
+        font-size: 25px;
+    }
+    header {
+        height: 120px;
+    }
+    .slideshow-container {
+        margin: 112px -8px 0 -8px;
+    }
+    .hr-line{
+        border-top: 3px solid #e8aa4e;
+        width: 85px;
+    }
+    .hr-line-2{
+        border-top: 3px solid #e8aa4eb2;
+        width: 55px;
+    }
+    .fname{
+        margin-left: 15px;
+        font-size: 11px;
+    }
+    .footer_social{
+        width: 140px;
+        margin-right: 15px;
+    }
+    .container{
+        display: block;
+        margin-left: 27px;
+        position: absolute;
+    }
+    .left, .right{
+        height: 32px;
+        display: block;
+        margin-top: 7px;
+        margin-left: 8px;
+    }
+    input[type=text]{
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .form{
+        margin-top: 30px;
+    }
+    #upload-container{
+        width: 398px;
+    }
+    input[type=submit]{
+        margin-left: 248px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .hed {
+        font-size: 23px;
+    }
+    .fname {
+        margin-left: 15px;
+        font-size: 9px;
+        display: inline-grid;
+    }
+    .footer_social {
+        width: 108px;
+        margin-right: 15px;
+    }
+    #upload-container {
+        width: 300px;
+    }
+    input[type=submit]{
+        margin-left: 150px;
+    }
+    input[type=text]{
+        margin-left: 50px;
+        margin-bottom: 10px;
+        width: 252px;
+    }
+    .container{
+        margin-left: 0;
+    }
+    .hr-line {
+        margin-top: -20px;
+      }
+}
+
+@media only screen and (max-width: 320px) {
+    .hed {
+        font-size: 19px;
+    }
+    .fname {
+        margin-left: 15px;
+    }
+    #upload-container {
+        width: 270px;
+    }
+    input[type=submit]{
+        margin-left: 122px;
+    }
+    input[type=text]{
+        width: 220px;
+    }
+    .hr-line {
+        margin-top: -17px;
+      }
+}
